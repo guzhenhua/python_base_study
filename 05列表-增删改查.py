@@ -32,8 +32,15 @@ print(name_list4)
 name_list5=['张三','李四','王五','赵六']
 name_list5.pop()
 print(name_list5)
+
 # 1.7移除制定的值的元素
 name_list6=['张三','李四','王五','赵六']
 name_list6.remove('张三')
 print(name_list6)
 
+# 1.8列表的遍历
+name_list7=['张三','李四','王五','赵六']
+for values in name_list7:
+    print(values)
+
+# 1.9遍历中结合if条件可以做对应处理
