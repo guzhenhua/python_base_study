@@ -44,3 +44,6 @@ for values in name_list7:
     print(values)
 
 # 1.9遍历中结合if条件可以做对应处理
+# 2.0 列表生成
+list_sc=[value *2 for value in range(1,3)]
+print(list_sc)
